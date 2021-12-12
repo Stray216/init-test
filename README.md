@@ -4,6 +4,7 @@
 ### Hello and welcome!
 - This is my first repository
 - This repository is to test GitHub and the IntelliJ integration
+- Third point, yes yes
 
 # Tables
 
