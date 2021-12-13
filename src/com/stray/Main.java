@@ -24,8 +24,6 @@ public class Main {
 		hello = Util.randomCase(hello);
 		System.out.println(hello);
 
-
-
 		System.exit(69);
 
 	}
