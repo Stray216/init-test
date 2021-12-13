@@ -9,20 +9,10 @@ public class Main {
 		System.out.println(hello.toLowerCase());
 		System.out.println(hello.toUpperCase());
 
-		hello = Util.randomCase(hello);
-		System.out.println(hello);
-		hello = Util.randomCase(hello);
-		System.out.println(hello);
-		hello = Util.randomCase(hello);
-		System.out.println(hello);
-		hello = Util.randomCase(hello);
-		System.out.println(hello);
-		hello = Util.randomCase(hello);
-		System.out.println(hello);
-		hello = Util.randomCase(hello);
-		System.out.println(hello);
-		hello = Util.randomCase(hello);
-		System.out.println(hello);
+		for(int i = 0; i < 10; i++) {
+			hello = Util.randomCase(hello);
+			System.out.println(hello);
+		}
 
 		System.exit(69);
 
